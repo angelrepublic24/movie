@@ -1,0 +1,8 @@
+.list-tag {
+    padding-left: 1.25rem;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.chk-tag {
+    position: static;
+}

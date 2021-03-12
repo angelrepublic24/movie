@@ -1,0 +1,31 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+body{
+	font-family: "Open Sans";
+	font-size: 16px;
+}
+header{
+	background: #08193E;
+}
+header .contenedor-titulo{
+	padding: 10px 0px;
+}
+header .contenedor-titulo .titulo{
+	color: #f2f2f2;
+	font-weight: 300;
+	line-height: 27px;
+}
+header .menu{
+	line-height:50px;
+	text-align: right;
+}
+header .menu .menu-item{
+	display: inline-block;
+	padding: 0px 10px;
+	list-style: none;
+}
+header .menu .menu-item a{
+	color: #fff;
+}

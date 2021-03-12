@@ -1,0 +1,11 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	padding-top: 55px;
+}
+.main .movies-posted img{
+	width: 100%;
+
+}

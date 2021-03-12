@@ -1,0 +1,176 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	padding-top: 55px;
+	background: #121212;
+  font-family: "Open Sans";
+}
+header .menu{
+  background: #282828;
+}
+/*header .menu{
+  opacity: 0.9;
+}*/
+header .menu #menuBar .navbar-nav .nav-item a:hover{
+  border-bottom: 2px solid #fff;
+}
+header .menu #menuBar ul{
+  margin-right: 170px;
+}
+header .menu .buscar .buscarText{
+  width: 70%;
+  height: 30px;
+}
+.main{
+  widows: 100%;
+  margin-top: 30px;
+}
+#mytab .nav-item .nav-link:hover{
+    border-bottom: none;
+}
+.contenedorPost {
+    background-color: #282828;
+    color: white;
+  }
+  .post-pelicula .container {
+    background-color: #282828;
+    width: 100%;
+    height: 500px;
+    color: white;
+  }
+/* TITULOS PORTADA MINIATURA */
+.titulo_miniatura{
+  color: burlywood;
+  font-size: 1rem;
+}
+.titulo_miniatura:hover{
+  color: burlywood;
+  text-decoration: none;
+}
+.tituloContenedor{
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
+}
+/* SUB-TITULOS PORTADA MINIATURA */
+.sub_titulo_miniatura{
+  color: #686e6f;
+  font-size: 0.8rem;
+}
+/* MARCO MINIATURA */
+.portada_miniatura {
+    padding-bottom: 1rem;
+}
+/* IMG MINIATURA */
+.img_miniatura{
+  width: 100%;
+  border: 1px solid #f2f2f2;
+}
+/* PELICULA */
+.peliDescripcion{
+  color: #a0a09e;
+}
+  .stretch-card>.card {
+     width: 100%;
+     min-width: 100%
+ }
+
+
+ .flex {
+     -webkit-box-flex: 1;
+     -ms-flex: 1 1 auto;
+     flex: 1 1 auto
+ }
+
+ @media (max-width:991.98px) {
+     .padding {
+         padding: 1.5rem
+     }
+ }
+
+ @media (max-width:767.98px) {
+     .padding {
+         padding: 1rem
+     }
+ }
+
+ .padding {
+     padding: 3rem
+ }
+
+ .owl-carousel .item {
+     margin: 3px
+ }
+
+ .owl-carousel .item img {
+     display: block;
+     width: 100%;
+     border: 1px solid #f2f2f2;
+ }
+
+ .owl-carousel .item {
+     margin: 3px
+ }
+@media (min-width: 768px) {
+  /* show 3 items */
+  .carousel-inner .active,
+  .carousel-inner .active + .carousel-item,
+  .carousel-inner .active + .carousel-item + .carousel-item {
+    display: block;
+  }
+
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+    transition: none;
+  }
+
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -33.3333%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  /* left or forward direction */
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  /* farthest right hidden item must be abso position for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+
+  /* right or prev direction */
+  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+  }
+}
